@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FD0E0713C60D3B0032EE96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FD0E0613C60D3B0032EE96 /* UIKit.framework */; };
+		22FD0E0913C60D3B0032EE96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FD0E0813C60D3B0032EE96 /* Foundation.framework */; };
+		22FD0E0B13C60D3B0032EE96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FD0E0A13C60D3B0032EE96 /* CoreGraphics.framework */; };
+		22FD0E1113C60D3B0032EE96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22FD0E0F13C60D3B0032EE96 /* InfoPlist.strings */; };
+		22FD0E1413C60D3B0032EE96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD0E1313C60D3B0032EE96 /* main.m */; };
+		22FD0E1713C60D3B0032EE96 /* TFGraphExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD0E1613C60D3B0032EE96 /* TFGraphExampleAppDelegate.m */; };
+		22FD0E1A13C60D3B0032EE96 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FD0E1813C60D3B0032EE96 /* MainWindow.xib */; };
+		22FD0E1D13C60D3B0032EE96 /* TFGraphExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD0E1C13C60D3B0032EE96 /* TFGraphExampleViewController.m */; };
+		22FD0E2013C60D3B0032EE96 /* TFGraphExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FD0E1E13C60D3B0032EE96 /* TFGraphExampleViewController.xib */; };
+		22FD0E2813C60D490032EE96 /* TFLineGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD0E2713C60D490032EE96 /* TFLineGraph.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22FD0E0213C60D3A0032EE96 /* TFGraphExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFGraphExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FD0E0613C60D3B0032EE96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22FD0E0813C60D3B0032EE96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22FD0E0A13C60D3B0032EE96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22FD0E0E13C60D3B0032EE96 /* TFGraphExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFGraphExample-Info.plist"; sourceTree = "<group>"; };
+		22FD0E1013C60D3B0032EE96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22FD0E1213C60D3B0032EE96 /* TFGraphExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFGraphExample-Prefix.pch"; sourceTree = "<group>"; };
+		22FD0E1313C60D3B0032EE96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FD0E1513C60D3B0032EE96 /* TFGraphExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFGraphExampleAppDelegate.h; sourceTree = "<group>"; };
+		22FD0E1613C60D3B0032EE96 /* TFGraphExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFGraphExampleAppDelegate.m; sourceTree = "<group>"; };
+		22FD0E1913C60D3B0032EE96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		22FD0E1B13C60D3B0032EE96 /* TFGraphExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFGraphExampleViewController.h; sourceTree = "<group>"; };
+		22FD0E1C13C60D3B0032EE96 /* TFGraphExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFGraphExampleViewController.m; sourceTree = "<group>"; };
+		22FD0E1F13C60D3B0032EE96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFGraphExampleViewController.xib; sourceTree = "<group>"; };
+		22FD0E2613C60D490032EE96 /* TFLineGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFLineGraph.h; sourceTree = "<group>"; };
+		22FD0E2713C60D490032EE96 /* TFLineGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFLineGraph.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FD0DFF13C60D3A0032EE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD0E0713C60D3B0032EE96 /* UIKit.framework in Frameworks */,
+				22FD0E0913C60D3B0032EE96 /* Foundation.framework in Frameworks */,
+				22FD0E0B13C60D3B0032EE96 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FD0DF713C60D3A0032EE96 = {
+			isa = PBXGroup;
+			children = (
+				22FD0E0C13C60D3B0032EE96 /* TFGraphExample */,
+				22FD0E0513C60D3B0032EE96 /* Frameworks */,
+				22FD0E0313C60D3A0032EE96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FD0E0313C60D3A0032EE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FD0E0213C60D3A0032EE96 /* TFGraphExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FD0E0513C60D3B0032EE96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22FD0E0613C60D3B0032EE96 /* UIKit.framework */,
+				22FD0E0813C60D3B0032EE96 /* Foundation.framework */,
+				22FD0E0A13C60D3B0032EE96 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22FD0E0C13C60D3B0032EE96 /* TFGraphExample */ = {
+			isa = PBXGroup;
+			children = (
+				22FD0E2913C60D500032EE96 /* TFLineGraph */,
+				22FD0E1513C60D3B0032EE96 /* TFGraphExampleAppDelegate.h */,
+				22FD0E1613C60D3B0032EE96 /* TFGraphExampleAppDelegate.m */,
+				22FD0E1813C60D3B0032EE96 /* MainWindow.xib */,
+				22FD0E1B13C60D3B0032EE96 /* TFGraphExampleViewController.h */,
+				22FD0E1C13C60D3B0032EE96 /* TFGraphExampleViewController.m */,
+				22FD0E1E13C60D3B0032EE96 /* TFGraphExampleViewController.xib */,
+				22FD0E0D13C60D3B0032EE96 /* Supporting Files */,
+			);
+			path = TFGraphExample;
+			sourceTree = "<group>";
+		};
+		22FD0E0D13C60D3B0032EE96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FD0E0E13C60D3B0032EE96 /* TFGraphExample-Info.plist */,
+				22FD0E0F13C60D3B0032EE96 /* InfoPlist.strings */,
+				22FD0E1213C60D3B0032EE96 /* TFGraphExample-Prefix.pch */,
+				22FD0E1313C60D3B0032EE96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FD0E2913C60D500032EE96 /* TFLineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				22FD0E2613C60D490032EE96 /* TFLineGraph.h */,
+				22FD0E2713C60D490032EE96 /* TFLineGraph.m */,
+			);
+			name = TFLineGraph;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FD0E0113C60D3A0032EE96 /* TFGraphExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FD0E2313C60D3B0032EE96 /* Build configuration list for PBXNativeTarget "TFGraphExample" */;
+			buildPhases = (
+				22FD0DFE13C60D3A0032EE96 /* Sources */,
+				22FD0DFF13C60D3A0032EE96 /* Frameworks */,
+				22FD0E0013C60D3A0032EE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFGraphExample;
+			productName = TFGraphExample;
+			productReference = 22FD0E0213C60D3A0032EE96 /* TFGraphExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FD0DF913C60D3A0032EE96 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 22FD0DFC13C60D3A0032EE96 /* Build configuration list for PBXProject "TFGraphExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22FD0DF713C60D3A0032EE96;
+			productRefGroup = 22FD0E0313C60D3A0032EE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FD0E0113C60D3A0032EE96 /* TFGraphExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FD0E0013C60D3A0032EE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD0E1113C60D3B0032EE96 /* InfoPlist.strings in Resources */,
+				22FD0E1A13C60D3B0032EE96 /* MainWindow.xib in Resources */,
+				22FD0E2013C60D3B0032EE96 /* TFGraphExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FD0DFE13C60D3A0032EE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD0E1413C60D3B0032EE96 /* main.m in Sources */,
+				22FD0E1713C60D3B0032EE96 /* TFGraphExampleAppDelegate.m in Sources */,
+				22FD0E1D13C60D3B0032EE96 /* TFGraphExampleViewController.m in Sources */,
+				22FD0E2813C60D490032EE96 /* TFLineGraph.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22FD0E0F13C60D3B0032EE96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FD0E1013C60D3B0032EE96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22FD0E1813C60D3B0032EE96 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FD0E1913C60D3B0032EE96 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		22FD0E1E13C60D3B0032EE96 /* TFGraphExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FD0E1F13C60D3B0032EE96 /* en */,
+			);
+			name = TFGraphExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FD0E2113C60D3B0032EE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22FD0E2213C60D3B0032EE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		22FD0E2413C60D3B0032EE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFGraphExample/TFGraphExample-Prefix.pch";
+				INFOPLIST_FILE = "TFGraphExample/TFGraphExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22FD0E2513C60D3B0032EE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFGraphExample/TFGraphExample-Prefix.pch";
+				INFOPLIST_FILE = "TFGraphExample/TFGraphExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FD0DFC13C60D3A0032EE96 /* Build configuration list for PBXProject "TFGraphExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FD0E2113C60D3B0032EE96 /* Debug */,
+				22FD0E2213C60D3B0032EE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FD0E2313C60D3B0032EE96 /* Build configuration list for PBXNativeTarget "TFGraphExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FD0E2413C60D3B0032EE96 /* Debug */,
+				22FD0E2513C60D3B0032EE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FD0DF913C60D3A0032EE96 /* Project object */;
+}
